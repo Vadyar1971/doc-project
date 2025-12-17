@@ -102,3 +102,65 @@
   102  git commit -m "Doble commit"
   103  git push
   104  history > commands3.txt
+  105  nano notes.txt
+  106  git add .
+  107  git commit -m "Update"
+  108  git status
+  109  git log --oneline
+  110  nano notes.txt
+  111  git log --oneline
+  112   git reset --soft f4d534d
+  113  git log --oneline
+  114  git add .
+  115  git log --oneline
+  116  git commit - m "delete update"
+  117  git log --oneline
+  118  git revert f4d534d
+  119  git revert 48453ac
+  120  git log --oneline
+  121  git reset --soft 48453ac
+  122  git log --oneline
+  123  nano notes.txt
+  124  nano notes.txt
+  125  git add .
+  126  git commit - m "Delete update and new text"
+  127  git commit -m "Delete update and new text"
+  128  git push
+  129  nano notes.txt
+  130  nano todo.txt
+  131  git stash
+  132  git status
+  133  git add todo.txt
+  134  git commit -m "Добавлен список задач"
+  135  git stash pop
+  136  cat notes.txt
+  137  echo "SECRET_TOKEN=abc123xyz" > secret.txt
+  138  cat secret.txt
+  139  echo "secret.txt" >> .gitignore
+  140  ls
+  141  ls -a
+  142  nano ./.gitignore
+  143  git status
+  144  git add .
+  145  git commit -m "Gitignore"
+  146  git status
+  147  ls
+  148  git log --oneline
+  149  touch app.log debug.log
+  150  ls
+  151  echo "*.log" >> .gitignore
+  152  nano ./.gitignore
+  153  git add .gitignore
+  154  git commit -m "добавлено игнорирование .log файлов"
+  155  git status
+  156  echo "Project version: 1.0" >> README.md
+  157  git add README.md
+  158  git commit -m "добавлена версия проекта"
+  159  git log --oneline
+  160  git reset --soft HEAD~1git reset --soft HEAD~1
+  161  git log --oneline
+  162  git reset --soft 6b8ef6b
+  163  git log --oneline
+  164  nano README.md
+  165  echo "Project version final" >> README.md
+  166  history > commands3.txt
