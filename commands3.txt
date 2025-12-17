@@ -164,3 +164,7 @@
   164  nano README.md
   165  echo "Project version final" >> README.md
   166  history > commands3.txt
+  167  git add .
+  168  git commit -m "Final"
+  169  git log --oneline
+  170  history > commands3.txt
