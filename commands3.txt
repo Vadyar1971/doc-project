@@ -1,0 +1,104 @@
+    1  mkdir my-favorite-movies && cd my-favorite-movies
+    2  git init
+    3  mkdir src docs data
+    4  ls
+    5  touch README.md src/app.txt data/movies.txt
+    6  nano  README.md 
+    7  history > command.txt
+    8  git config --global user.name "Vadrogozhin" и git config --global user.email "vadrogozhin@hotmail.com"
+    9   git config --global user.name "Vadrogozhin" git config --global user.email "vadrogozhin@hotmail.com"
+   10   git config --global user.name "Vadrogozhin"
+   11  git config --global user.email "vadrogozhin@hotmail.com"
+   12  ls -a
+   13   history > command.txt
+   14  git init
+   15  ls -a
+   16  cd my-favorite-movies
+   17  ls
+   18  ls -a
+   19  git add README.md
+   20  git commit -m "Initial commit: add README.md"
+   21  ды
+   22  ls
+   23  cd data
+   24  ls
+   25  nano movies.txt
+   26  nano movies.txt
+   27  touch src/app.txt
+   28  cd//
+   29  cd..
+   30  cd ..
+   31   touch src/app.txt
+   32  nano app.txt
+   33  nano app.txt
+   34  cd src
+   35  ls
+   36  ls -a
+   37  cd ..
+   38  ls -a
+   39  pwd
+   40  cat src/app.txt
+   41  cd src
+   42  cat app.txt
+   43  less data/movies.txt
+   44  cd data
+   45  cd ..
+   46  cd data
+   47  less data/movies.txt
+   48  cd ..
+   49  less data/movies.txt
+   50  cp data/movies.txt data/movies_backup.txt
+   51  mkdir data/archive
+   52  cp data/movies.txt data/archive/
+   53  rm data/movies_backup.txt
+   54  mkdir tmp
+   55  touch tmp/test.txt
+   56  rm -r tmp
+   57  git add .
+   58  git commit -m "Init project: movie list"
+   59  git branch -M main
+   60  git remote add origin <https://github.com/Vadrogozhin/DZ-GIT-Vadim>
+   61   git remote add origin https://github.com/Vadrogozhin/DZ-GIT-Vadim
+   62  git push -u origin main
+   63   git push -u origin main
+   64  cd ..
+   65   git remote add origin https://github.com/Vadrogozhin/DZ-GIT-Vadim
+   66  git push -u origin main
+   67  history > commands.txt
+   68  git add commands.txt
+   69  git commit -m "Add terminal history"
+   70  git push
+   71  git remote add origin ssh://ssh.sourcecraft.dev/vadrogozhin/dz.git
+   72  git remote add origin ssh://ssh.sourcecraft.dev/vadrogozhin/dz.git
+   73  echo "# dz" > README.md
+   74  git init
+   75  git add README.md
+   76  git commit -m "first commit"
+   77  git branch -M main
+   78  git remote add origin ssh://ssh.sourcecraft.dev/vadrogozhin/dz.git
+   79  git config --global user.name "Vadyar1971"
+   80  git config --global user.email "vadrogozhin46@gmail.com"
+   81  git pull
+   82  git pull https://github.com/Vadyar1971/Zadachi.git
+   83  git init
+   84  git add.
+   85  git add .
+   86  git pull https://github.com/Vadyar1971/Zadachi.git
+   87  nano ./README.md 
+   88  git add .
+   89  git commit -m "Invalid commit"
+   90  git push
+   91  it status --oneline
+   92  git status --oneline
+   93  git log --oneline
+   94  git revert 0c83672
+   95  git log --oneline
+   96  git revert 3250225
+   97  git reset --hard 3250225
+   98  git add .
+   99  nano ./README.md
+  100  git revert 3250225
+  101  git add .
+  102  git commit -m "Doble commit"
+  103  git push
+  104  history > commands3.txt
